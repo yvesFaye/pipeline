@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: python --versions
+      - run: python --version
 
       - name: Install dependencies
         run: |
