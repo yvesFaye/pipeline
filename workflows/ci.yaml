@@ -1,0 +1,15 @@
+on:
+ push:
+   branches:
+     - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: ls -la
+
+      - uses: actions/checkout@v4
+
+      - run: python --versions
